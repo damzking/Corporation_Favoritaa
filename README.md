@@ -45,7 +45,7 @@ Machine learning and statistical methods like ARIMA and Prophet are vital tools 
 
 ## Data Sources 📊
 - The dataset was provided in GitHub and SQL and was transformed to CSV format for transparency and reproductibility.
-- Statistics on Telco Churn Rate.
+- Statistics on Timeseries Regression
 
 ## Topical Questions and Hypotheses
 #### Questions 🤔: 
