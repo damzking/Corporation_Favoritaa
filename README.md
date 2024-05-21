@@ -83,9 +83,7 @@ Train_df
 
 Oil_df
 - Daily oil price- which includes values during both the train and test data timeframes. 
--
--
--
+
 
 Holidays_df
 - Date : Date for the Holidays
