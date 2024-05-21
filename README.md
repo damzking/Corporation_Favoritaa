@@ -45,15 +45,16 @@ Machine learning and statistical methods like ARIMA and Prophet are vital tools 
 
 ## Data Sources 📊
 - The dataset was provided in GitHub and SQL and was transformed to CSV format for transparency and reproductibility.
-- Statistics on Timeseries Regression
+- Statistics on Time Series Regression Analysis Corporation Favorita.
 
 ## Topical Questions and Hypotheses
 #### Questions 🤔: 
 
 ### Hypotheses 🔬:
 #### A significance level (α) of 5% will used to perform all the hypothesis testing
-- Null hypothesis : Products on promotions have higher or equal averages sales compared those that are not on promotion
-- Alternative hypothesis: Products on promotions have lesser averages sales compared those that are not on promotion
+
+-Null hypothesis : There is no significant difference in the sales of products on promotion and those not on promotion at Corporation Favorita.
+- Alternative hypothesis: There is significant difference in the sales of products on promotion and those not on promotion at Corporation Favorita
 
 ANALYTICAL QUESTIONS
 The following analytical questions will help us gain insight and as well as confirm our hypothesis
@@ -71,6 +72,7 @@ The following analytical questions will help us gain insight and as well as conf
 
 
 
+
 ###Data Dictionary
 Train_df
 - ID - Uniquely identify each customer
@@ -80,28 +82,31 @@ Train_df
 - Date - The date a sale was made 
 
 Oil_df
--
+- Daily oil price- which includes values during both the train and test data timeframes. 
 -
 -
 -
 
 Holidays_df
--
--
--
--
+- Date : Date for the Holidays
+- Type : Type of Holidays 
+- Locale: The Geographical area for the holidays
+- Locale Name : The name of the regions for the holidays
+- Description : Information on the regions for the holidays
+- Transferred : 
+
 
 Stores_df
--
--
--
--
--
+-Store_nbr : The Unique Identifier for the stores
+-City : The City where the stores are located
+-State : The state where the stores are located
+-Type  :  The type of stores 
+-Cluster : The grouping of similar stores
 
 Transact_df
--
--
--
+- date  : The date transactions were made
+- store_nbr : The Unique Identifier for the stores 
+- transactions : The amount of transactions made within the stores on that specific date 
 -
 -
 
@@ -180,23 +185,22 @@ Transact_df
 
 - Line Chart 📈
 - Bar chart 📊
-- Swarm Plot ◼▪◾
+- Calender Plot 
 - Box Plot 
+- Kernel Density Plot
 
 ## Analysis 🔍
 - Utilizing Python and data analysis libraries such as Pandas, Matplotlib, and Seaborn, we performed exploratory data analysis (EDA) to uncover trends and insights.
-- We analyzed sales by year,month, sector-wise funding distribution, top investors, geographical distribution, and funding rounds.
+- We analyzed sales by year,month on Family,Store_numbers and onpromotion.
 
 ##Statistical Models
 - Sarima
--ARIMA
+-
 
 ## Machine Learning Models and Hyperparameter Tuning
 -   Gradient_Boosting
--	Random_Forest	
 -	XGBoost	
 -   Linear_Regression	
--   
 
 
 
@@ -207,12 +211,15 @@ Transact_df
 - Higher sales were recorded on saturdays and sundays
 
 ## Key Files 📂
-- `LP2_telco_churn.ipynb`: Jupyter Notebook containing the code for data cleaning, EDA, and visualization.
+- `TSRA-FAVORITA.ipynb`: Jupyter Notebook containing the code for data cleaning, EDA, and visualization.
 - Raw data used for analysis.
 >Train.csv
 >Transactions.csv
 >Store.csv
 >Oil.csv
+>Sample_Submissions.csv
+>Holidays_events.csv
+>Test.csv
 -`README.md`: This file providing an overview of the project.
 
 
@@ -259,13 +266,13 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone hhttps://github.com/Koanim/Team-Lawrencium-Indian--startup-funding-Analysis-from-2018-to-2021
+  git clone https://github.com/Koanim/Time-Series-Regression-Analysis-TSRA-Corporation-Favorita-.git
 ```
 
 Change into the cloned repository
 
 ```sh
-  cd Team-Lawrencium-Indian--startup-funding-Analysis-from-2018-to-2021
+  cd  https://github.com/Koanim/Time-Series-Regression-Analysis-TSRA-Corporation-Favorita
   
 ```
 
@@ -347,5 +354,4 @@ We acknowledge the following persons for their coaching and support
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
