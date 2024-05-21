@@ -48,7 +48,6 @@ Machine learning and statistical methods like ARIMA and Prophet are vital tools 
 - Statistics on Time Series Regression Analysis Corporation Favorita.
 
 ## Topical Questions and Hypotheses
-#### Questions 🤔: 
 
 ### Hypotheses 🔬:
 #### A significance level (α) of 5% will used to perform all the hypothesis testing
@@ -56,7 +55,7 @@ Machine learning and statistical methods like ARIMA and Prophet are vital tools 
 -Null hypothesis : There is no significant difference in the sales of products on promotion and those not on promotion at Corporation Favorita.
 - Alternative hypothesis: There is significant difference in the sales of products on promotion and those not on promotion at Corporation Favorita
 
-ANALYTICAL QUESTIONS
+ ### ANALYTICAL QUESTIONS 🤔: 
 The following analytical questions will help us gain insight and as well as confirm our hypothesis
 
 1. Is the train dataset complete (has all the required dates)?
