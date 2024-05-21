@@ -94,11 +94,13 @@ Holidays_df
 
 
 Stores_df
+
 -Store_nbr : The Unique Identifier for the stores
 -City : The City where the stores are located
 -State : The state where the stores are located
 -Type  :  The type of stores 
 -Cluster : The grouping of similar stores
+
 
 Transact_df
 - date  : The date transactions were made
