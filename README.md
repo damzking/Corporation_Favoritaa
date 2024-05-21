@@ -105,8 +105,7 @@ Transact_df
 - date  : The date transactions were made
 - store_nbr : The Unique Identifier for the stores 
 - transactions : The amount of transactions made within the stores on that specific date 
--
--
+
 
 
 
